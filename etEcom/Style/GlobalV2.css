@@ -1,0 +1,296 @@
+﻿/*BODY*/
+body {
+    width:100%;
+    height:100%;
+    font-family:Arial;
+}
+/*Resposive Width and Height*/
+/*General Properties*/
+.rightalign
+{
+    align:right;
+}
+/*Align Right*/
+.leftalign
+{
+    align:left;
+}
+/*Align Left*/
+/*Heading 1 : 10em Font Size*/
+.h1
+{
+    font-size:10em;
+}
+/*Heading 2 : 8em Font Size*/
+.h2
+{
+    font-size:8em;
+}
+/*Heading 3 : 6em Font Size*/
+.h3
+{
+    font-size:6em;
+}
+/*Heading 4 : 4em Font Size*/
+.h4
+{
+    font-size:4em;
+}
+/*Heading 5 : 2em Font Size*/
+.h5
+{
+    font-size:2em;
+}
+/*Paragraph : 1em Font Size*/
+.p
+{
+    font-size:1em;
+}
+/*END BODY*/
+/*START BUTTON*/
+.button {
+    width:90%;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    margin: 8% 0 4%;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 34px;
+    background: #00405d;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+/*Button Details
+    Width : Responsive
+    Font : Defined
+    Input-Font : Pre-defined
+    No border
+    No outline
+    Font Size : 1em
+    Background Color : Royal Blue
+    Font Color : Black
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+.button:hover {
+        background: #ffcc33;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+/*Button Hover Details
+    Width : Responsive
+    Font : Defined
+    Background : Yellow
+    Text Decoration : None
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+/*END BUTTON*/
+/*START TEXTBOX*/
+.txt {
+    border-color: black;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    width: 70%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-transform: initial;
+}
+/*TextBox Details
+    Width : Responsive
+    Font : Defined
+    Border Color : Black
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+.txt:hover {
+    border-color: blue;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+/*TextBox Hover Details
+    Border Color : Normal Blue
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+.txt:focus {
+    border-color: #00405d;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+/*TextBox Focus Details
+    Border Color : Royal Blue
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+/*END TEXTBOX*/
+/*START DROPDOWN*/
+.dropDownLists {
+            width: 70%;
+            height: auto;
+            border:0.15em solid black;
+            padding: 3px;
+            outline: none;
+            font-size: 1em;
+            background-image: url('../Images/select-arrow-open.png');
+            background-position: right;
+            background-repeat: no-repeat;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -o-appearance: none;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            font-family: 'Open Sans', sans-serif;
+            text-transform: initial;
+        }
+.dropDownLists:hover {
+        background: #00ffff;
+        outline: none;
+        border:0.15em solid black;
+        background-image: url('../Images/select-arrow-open.png');
+        background-position: right;
+        background-repeat: no-repeat;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+}
+.dropDownLists:focus {
+        background: #00ffff;
+        outline: none;
+        border:0.15em solid black;
+        background-image: url('../Images/select-arrow-open.png');
+        background-position: right;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        background-repeat: no-repeat;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+}
+/*END DROPDOWN*/
+/*START LABEL*/
+.label {
+    margin: 8% 0 4%;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 10px 34px;
+    background: #ff0000;
+    color: #fff;
+    text-transform: initial;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width:90%;
+}
+/*Label Details
+    Background : Pure Red
+    Font : Predefined
+    Border : None
+    Outline : None
+    Colour : Black
+    Font Size : 1em
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+.label:hover {
+        background: #eb6565;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+/*Label Hover Details
+    Background : Red
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+.simpleLabel
+{
+    margin: 8% 0 4%;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 10px 34px;
+    background: grey;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width:90%;
+}
+/*Simple Label Details
+    Background : Grey
+    Font : Predefined
+    Border : None
+    Outline : None
+    Colour : Black
+    Font Size : 1em
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+/*END LABEL*/
+.translabel
+{
+    font-family: 'Open Sans', sans-serif;
+    border:none;
+    outline:none;
+    font-size:larger;
+    padding-bottom:10px;
+    background:none;
+    color:black;
+    width:70%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+/*
+    Transparent Label
+    */

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="614260ee756f4107a144a0171342ae96" Name="Diagram1">
+        <EntityTypeShape EntityType="etEcomModel.Address" Width="1.5" PointX="7.5" PointY="4.875" />
+        <EntityTypeShape EntityType="etEcomModel.AddressType" Width="1.5" PointX="5.25" PointY="2.625" />
+        <EntityTypeShape EntityType="etEcomModel.Brand" Width="1.5" PointX="12.75" PointY="14.75" />
+        <EntityTypeShape EntityType="etEcomModel.Cart" Width="1.5" PointX="12" PointY="5" />
+        <EntityTypeShape EntityType="etEcomModel.CartProduct" Width="1.5" PointX="17.25" PointY="5.25" />
+        <EntityTypeShape EntityType="etEcomModel.Category" Width="1.5" PointX="12.75" PointY="11.125" />
+        <EntityTypeShape EntityType="etEcomModel.City" Width="1.5" PointX="5.25" PointY="5.25" />
+        <EntityTypeShape EntityType="etEcomModel.Contact" Width="1.5" PointX="7.5" PointY="9.375" />
+        <EntityTypeShape EntityType="etEcomModel.Country" Width="1.5" PointX="0.75" PointY="5.625" />
+        <EntityTypeShape EntityType="etEcomModel.Member" Width="1.5" PointX="9.75" PointY="4.625" />
+        <EntityTypeShape EntityType="etEcomModel.Order" Width="1.5" PointX="14.25" PointY="4.5" />
+        <EntityTypeShape EntityType="etEcomModel.Product" Width="1.5" PointX="15" PointY="11.625" />
+        <EntityTypeShape EntityType="etEcomModel.Seller" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="etEcomModel.State" Width="1.5" PointX="3" PointY="5.375" />
+        <EntityTypeShape EntityType="etEcomModel.Status" Width="1.5" PointX="12" PointY="2.625" />
+        <EntityTypeShape EntityType="etEcomModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" />
+        <AssociationConnector Association="etEcomModel.FK_Address_AddressType" />
+        <AssociationConnector Association="etEcomModel.FK_Address_City" />
+        <AssociationConnector Association="etEcomModel.FK_Members_Address" />
+        <AssociationConnector Association="etEcomModel.FK_Orders_Address" />
+        <AssociationConnector Association="etEcomModel.FK_Products_Brands" />
+        <AssociationConnector Association="etEcomModel.FK_Cart_Members" />
+        <AssociationConnector Association="etEcomModel.FK_CartProduct_Cart" />
+        <AssociationConnector Association="etEcomModel.FK_Orders_Cart" />
+        <AssociationConnector Association="etEcomModel.FK_CartProduct_Products" />
+        <AssociationConnector Association="etEcomModel.FK_Products_Category" />
+        <AssociationConnector Association="etEcomModel.FK_City_State" />
+        <AssociationConnector Association="etEcomModel.FK_Contact_City" />
+        <AssociationConnector Association="etEcomModel.FK_State_Country" />
+        <AssociationConnector Association="etEcomModel.FK_Orders_Status" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

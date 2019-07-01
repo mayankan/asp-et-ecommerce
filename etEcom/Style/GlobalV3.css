@@ -1,0 +1,770 @@
+﻿/*BODY*/
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+}
+/*Resposive Width and Height*/
+/*General Properties*/
+/*Rounded Corner CSS for Button
+    */
+.roundCorners {
+    border: 1px solid #A1DCF2;
+    border-radius: 8px;
+    overflow: hidden;
+}
+/*End rounded Corners
+    */
+/*Heading 1 : 10em Font Size*/
+.h1 {
+    font-size: 10em;
+}
+/*Heading 2 : 8em Font Size*/
+.h2 {
+    font-size: 8em;
+}
+/*Heading 3 : 6em Font Size*/
+.h3 {
+    font-size: 6em;
+}
+/*Heading 4 : 4em Font Size*/
+.h4 {
+    font-size: 4em;
+}
+/*Heading 5 : 2em Font Size*/
+.h5 {
+    font-size: 2em;
+}
+/*Paragraph : 1em Font Size*/
+.p {
+    font-size: 1em;
+}
+/*END BODY*/
+/*START BUTTON*/
+.button {
+    width: 90%;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    margin: 8% 0 4%;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 34px;
+    background: #00405d;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+    /*Button Details
+    Width : Responsive
+    Font : Defined
+    Input-Font : Pre-defined
+    No border
+    No outline
+    Font Size : 1em
+    Background Color : Royal Blue
+    Font Color : Black
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+    .button:hover {
+        background: #ffcc33;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+/*Button Hover Details
+    Width : Responsive
+    Font : Defined
+    Background : Yellow
+    Text Decoration : None
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+/*END BUTTON*/
+/*START TEXTBOX*/
+.txt {
+    border-color: black;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    width: 70%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+    /*TextBox Details
+    Width : Responsive
+    Font : Defined
+    Border Color : Black
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+    .txt:hover {
+        border-color: blue;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    /*TextBox Hover Details
+    Border Color : Normal Blue
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+    .txt:focus {
+        border-color: #00405d;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+/*TextBox Focus Details
+    Border Color : Royal Blue
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+/*END TEXTBOX*/
+/*START DROPDOWN*/
+.dropDownLists {
+    width: 70%;
+    height: auto;
+    border: 0.15em solid black;
+    padding: 3px;
+    outline: none;
+    font-size: 1em;
+    background-image: url('../Images/select-arrow-open.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: initial;
+}
+
+    .dropDownLists:hover {
+        background: #00ffff;
+        outline: none;
+        border: 0.15em solid black;
+        background-image: url('../Images/select-arrow-open.png');
+        background-position: right;
+        background-repeat: no-repeat;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .dropDownLists:focus {
+        background: #00ffff;
+        outline: none;
+        border: 0.15em solid black;
+        background-image: url('../Images/select-arrow-open.png');
+        background-position: right;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        background-repeat: no-repeat;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+/*END DROPDOWN*/
+/*START LABEL*/
+.label {
+    margin: 8% 0 4%;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 10px 34px;
+    background: #ff0000;
+    color: #fff;
+    text-transform: initial;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 90%;
+}
+    /*Label Details
+    Background : Pure Red
+    Font : Predefined
+    Border : None
+    Outline : None
+    Colour : Black
+    Font Size : 1em
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+    .label:hover {
+        background: #eb6565;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+/*Label Hover Details
+    Background : Red
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+.simpleLabel {
+    margin: 8% 0 4%;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 10px 34px;
+    background: grey;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 90%;
+}
+/*Simple Label Details
+    Background : Grey
+    Font : Predefined
+    Border : None
+    Outline : None
+    Colour : Black
+    Font Size : 1em
+    Transformation Speed : 0.3 seconds
+    Webkit Browsers Supported
+    Mozilla Browsers Supported
+    Opera Browsers Supported
+    */
+/*END LABEL*/
+.translabel {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    font-size: larger;
+    padding-bottom: 10px;
+    background: none;
+    color: black;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-left: 0px;
+}
+/*
+    Transparent Label
+    */
+/*Gridview CSS
+    */
+.gridView:hover {
+    background-color: #FFEB9C;
+    border: 0.35em solid black;
+    color: #9C6500;
+}
+/*END Gridview
+    */
+/*Textbox with Search Icon without Hover div
+    */
+.searchTxt {
+    margin: 10px 0;
+    background-image: url('../Images/search.png');
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-position: right;
+    border: 1px solid #DADADA;
+    font-size: 14px;
+    box-shadow: 0 0 10px;
+    -webkit-box-shadow: 0 0 10px; /* for I.E */
+    -moz-box-shadow: 0 0 10px; /* for Mozilla web browser*/
+    border-radius: 5px;
+    -webkit-border-radius: 5px; /* for I.E */
+    -moz-border-radius: 5px; /* for Mozilla web browser*/
+}
+/* End TextBox with Search Icon
+    */
+/*Table CSS
+    */
+/*td {
+background-color: #fff;
+}
+        td:hover {
+#eee;
+}*/
+/* tr#element{
+    background-color: green;
+    border-top-color:gray;
+    border-color:grey;
+    cursor: pointer;
+    height: 30px;
+    width:200px
+}
+
+tr#element:hover{
+    background-color: blue;
+    border-top-color:blue;
+    border-color:blue;
+    cursor: pointer;
+
+}*/
+.menu:hover {
+    background-color: #00405d;
+    border: 3px solid #ffcc33;
+    font-family: "Algerian";
+    /*<!--,Castellar,Cooper Black,Arial Black,Impact,Cursive,Times New Roman; -->*/
+    zoom: 2;
+    filter: alpha(opacity=45);
+    opacity: 0.45;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.menu{
+    background-color: whitesmoke;
+    border-color: navajowhite;
+    color: darkgray;
+    padding: 0px;
+    font-family: "Forte"; 
+ /*<!--,Brush Script MT,Curlz MT,Chiller,Monospace,Baskerville Old Face; -->*/   
+}
+
+.table {
+    margin-left:120px;
+    margin-right:120px;
+  /*background-color: gray;
+    border-spacing: 2px;*/  
+}
+
+ /*.table:hover {
+        background-color: gray;
+        border-spacing: 2px;
+    }*/   
+/*End Table CSS
+    */
+/*DatePicker CSS
+    Usage - <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+    */
+.ui-datepicker {
+    width: 17em;
+    padding: .2em .2em 0;
+    display: none;
+}
+
+    .ui-datepicker .ui-datepicker-header {
+        position: relative;
+        padding: .2em 0;
+    }
+
+    .ui-datepicker .ui-datepicker-prev,
+    .ui-datepicker .ui-datepicker-next {
+        position: absolute;
+        top: 2px;
+        width: 1.8em;
+        height: 1.8em;
+    }
+
+    .ui-datepicker .ui-datepicker-prev-hover,
+    .ui-datepicker .ui-datepicker-next-hover {
+        top: 1px;
+    }
+
+    .ui-datepicker .ui-datepicker-prev {
+        left: 2px;
+    }
+
+    .ui-datepicker .ui-datepicker-next {
+        right: 2px;
+    }
+
+    .ui-datepicker .ui-datepicker-prev-hover {
+        left: 1px;
+    }
+
+    .ui-datepicker .ui-datepicker-next-hover {
+        right: 1px;
+    }
+
+    .ui-datepicker .ui-datepicker-prev span,
+    .ui-datepicker .ui-datepicker-next span {
+        display: block;
+        position: absolute;
+        left: 50%;
+        margin-left: -8px;
+        top: 50%;
+        margin-top: -8px;
+    }
+
+    .ui-datepicker .ui-datepicker-title {
+        margin: 0 2.3em;
+        line-height: 1.8em;
+        text-align: center;
+    }
+
+        .ui-datepicker .ui-datepicker-title select {
+            font-size: 1em;
+            margin: 1px 0;
+        }
+
+    .ui-datepicker select.ui-datepicker-month,
+    .ui-datepicker select.ui-datepicker-year {
+        width: 45%;
+    }
+
+    .ui-datepicker table {
+        width: 100%;
+        font-size: .9em;
+        border-collapse: collapse;
+        margin: 0 0 .4em;
+    }
+
+    .ui-datepicker th {
+        padding: .7em .3em;
+        text-align: center;
+        font-weight: bold;
+        border: 0;
+    }
+
+    .ui-datepicker td {
+        border: 0;
+        padding: 1px;
+    }
+
+        .ui-datepicker td span,
+        .ui-datepicker td a {
+            display: block;
+            padding: .2em;
+            text-align: right;
+            text-decoration: none;
+        }
+
+    .ui-datepicker .ui-datepicker-buttonpane {
+        background-image: none;
+        margin: .7em 0 0 0;
+        padding: 0 .2em;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+
+        .ui-datepicker .ui-datepicker-buttonpane button {
+            float: right;
+            margin: .5em .2em .4em;
+            cursor: pointer;
+            padding: .2em .6em .3em .6em;
+            width: auto;
+            overflow: visible;
+        }
+
+            .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+                float: left;
+            }
+
+    /* with multiple calendars */
+    .ui-datepicker.ui-datepicker-multi {
+        width: auto;
+    }
+
+.ui-datepicker-multi .ui-datepicker-group {
+    float: left;
+}
+
+    .ui-datepicker-multi .ui-datepicker-group table {
+        width: 95%;
+        margin: 0 auto .4em;
+    }
+
+.ui-datepicker-multi-2 .ui-datepicker-group {
+    width: 50%;
+}
+
+.ui-datepicker-multi-3 .ui-datepicker-group {
+    width: 33.3%;
+}
+
+.ui-datepicker-multi-4 .ui-datepicker-group {
+    width: 25%;
+}
+
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+    border-left-width: 0;
+}
+
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+    clear: left;
+}
+
+.ui-datepicker-row-break {
+    clear: both;
+    width: 100%;
+    font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+    direction: rtl;
+}
+
+    .ui-datepicker-rtl .ui-datepicker-prev {
+        right: 2px;
+        left: auto;
+    }
+
+    .ui-datepicker-rtl .ui-datepicker-next {
+        left: 2px;
+        right: auto;
+    }
+
+    .ui-datepicker-rtl .ui-datepicker-prev:hover {
+        right: 1px;
+        left: auto;
+    }
+
+    .ui-datepicker-rtl .ui-datepicker-next:hover {
+        left: 1px;
+        right: auto;
+    }
+
+    .ui-datepicker-rtl .ui-datepicker-buttonpane {
+        clear: right;
+    }
+
+        .ui-datepicker-rtl .ui-datepicker-buttonpane button {
+            float: left;
+        }
+
+            .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+            .ui-datepicker-rtl .ui-datepicker-group {
+                float: right;
+            }
+
+    .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+    .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+        border-right-width: 0;
+        border-left-width: 1px;
+    }
+/*END DatePicker CSS
+    */
+/*Label Before Checkbox and Radio Button Class
+    Use GroupName for grouping Radio Button.
+    Usage - label/radio or checkbox/i tag / Name of checkbox or radiobutton / close all/.
+    <div class="sky-form">
+        <div class="sky_form1">
+            <ul>
+                <li>
+                    <label class="checkbox">
+                        <asp:CheckBox ID="checkbox" runat="server" /><i></i>Male</label></li>
+                <li>
+                    <label class="checkbox">
+                        <asp:CheckBox ID="checkbox2" runat="server" /><i></i>Female</label></li>
+            </ul>
+        </div>
+    </div>
+    */
+.radio, .checkbox {
+    outline: none;
+    border: none;
+    margin-bottom: 4px;
+    padding-left: 27px;
+    font-size: 13px;
+    line-height: 27px;
+    color: #555555;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.radio {
+    text-transform: none;
+}
+
+    .radio:last-child,
+    .checkbox:last-child {
+        margin-bottom: 0;
+    }
+
+    .radio input,
+    .checkbox input {
+        position: absolute;
+        left: -9999px;
+    }
+
+    .radio i,
+    .checkbox i {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        display: block;
+        width: 17px;
+        height: 17px;
+        outline: none;
+        border-width: 2px;
+        border-style: solid;
+        background: #fff;
+    }
+
+    .radio i {
+        border-radius: 50%;
+    }
+
+    .radio input + i:after,
+    .checkbox input + i:after {
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.1s;
+        -o-transition: opacity 0.1s;
+        -ms-transition: opacity 0.1s;
+        transition: opacity 0.1s;
+        -moz-transition: opacity 0.1s;
+        -webkit-transition: opacity 0.1s;
+    }
+
+    .radio input + i:after {
+        content: '';
+        top: 4px;
+        left: 4px;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }
+
+.checkbox input + i:after {
+    content: '';
+    top: 3px;
+    left: 2px;
+    width: 10px;
+    height: 7px;
+    background: url(../images/tick.png) no-repeat;
+    text-align: center;
+}
+
+.radio input:checked + i:after,
+.checkbox input:checked + i:after {
+    opacity: 1;
+}
+
+.inline-group {
+    margin: 0 -30px -4px 0;
+}
+
+    .inline-group:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .inline-group .radio,
+    .inline-group .checkbox {
+        float: left;
+        margin-right: 30px;
+    }
+
+        .inline-group .radio:last-child,
+        .inline-group .checkbox:last-child {
+            margin-bottom: 4px;
+        }
+
+.radio,
+.checkbox {
+    display: block;
+    min-height: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+    .radio label,
+    .checkbox label {
+        display: inline;
+        margin-bottom: 0;
+        font-weight: normal;
+        cursor: pointer;
+    }
+
+    .radio input[type="radio"],
+    .radio-inline input[type="radio"],
+    .checkbox input[type="checkbox"],
+    .checkbox-inline input[type="checkbox"] {
+        float: left;
+        margin-left: -20px;
+    }
+
+    .radio + .radio,
+    .checkbox + .checkbox {
+        margin-top: -5px;
+    }
+
+.radio-inline,
+.checkbox-inline {
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+    .radio-inline + .radio-inline,
+    .checkbox-inline + .checkbox-inline {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+    input[type="radio"][disabled],
+    input[type="checkbox"][disabled],
+    .radio[disabled],
+    .radio-inline[disabled],
+    .checkbox[disabled],
+    .checkbox-inline[disabled],
+    fieldset[disabled] input[type="radio"],
+    fieldset[disabled] input[type="checkbox"],
+    fieldset[disabled] .radio,
+    fieldset[disabled] .radio-inline,
+    fieldset[disabled] .checkbox,
+    fieldset[disabled] .checkbox-inline {
+        cursor: not-allowed;
+    }
+/*END RADIOBUTTON AND CHECKBOX
+    */
